@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WeirdShadow.MainPage">
+
+
+		<StackLayout BackgroundColor="Orange" HorizontalOptions="Fill">
+            <Grid RowSpacing="0" ColumnSpacing="0" HeightRequest="80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid BackgroundColor="#ffffff" Grid.Column="0" Margin="0,24,0,0">
+					<Label Text="Menu item 1" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"
+						HorizontalTextAlignment="Center" FontSize="14" TextColor="#000000" >
+					</Label>
+                </Grid>
+
+                <Grid Grid.Column="1" Margin="0,24,0,0" Padding="0">
+                    <Image Aspect="AspectFill" VerticalOptions="FillAndExpand" Source="menu_window.png" HorizontalOptions="FillAndExpand" />
+                </Grid>
+
+				<Frame HasShadow="true" Grid.Column="1" Margin="0,0,0,4" CornerRadius="28" Padding="0"
+                    WidthRequest="54" HeightRequest="54" HorizontalOptions="Center" VerticalOptions="EndAndExpand" BackgroundColor="#ffffff">
+				</Frame>
+						
+				<Grid BackgroundColor="#ffffff" Grid.Column="2" Margin="0,24,0,0">
+					<Label Text="This has a shadow?" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"
+						HorizontalTextAlignment="Center" FontSize="10" TextColor="#000000" >
+					</Label>
+                </Grid>
+            </Grid>
+
+            <Grid RowSpacing="0" ColumnSpacing="0" HeightRequest="80" Margin="0,40,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid BackgroundColor="#ffffff" Grid.Column="0" Margin="0,24,0,0">
+					<Label Text="Menu item 1" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"
+						HorizontalTextAlignment="Center" FontSize="14" TextColor="#000000" >
+					</Label>
+                </Grid>
+
+                <Grid Grid.Column="1" Margin="0,24,0,0" Padding="0">
+                    <Image Aspect="AspectFill" VerticalOptions="FillAndExpand" Source="menu_window.png" HorizontalOptions="FillAndExpand" />
+                </Grid>
+
+				<Frame HasShadow="false" Grid.Column="1" Margin="0,0,0,4" CornerRadius="28" Padding="0"
+                    WidthRequest="54" HeightRequest="54" HorizontalOptions="Center" VerticalOptions="EndAndExpand" BackgroundColor="#ffffff">
+				</Frame>
+						
+				<Grid BackgroundColor="#ffffff" Grid.Column="2" Margin="0,24,0,0">
+					<Label Text="This has no shadow" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center"
+						HorizontalTextAlignment="Center" FontSize="10" TextColor="#000000" >
+					</Label>
+                </Grid>
+            </Grid>
+        </StackLayout>
+
+</ContentPage>

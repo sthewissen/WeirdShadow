@@ -1,0 +1,12 @@
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/bin/Debug/netstandard2.0/WeirdShadow.deps.json
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/bin/Debug/netstandard2.0/WeirdShadow.dll
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/bin/Debug/netstandard2.0/WeirdShadow.pdb
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/WeirdShadow.csprojAssemblyReference.cache
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/WeirdShadow.csproj.CoreCompileInputs.cache
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/WeirdShadow.AssemblyInfoInputs.cache
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/WeirdShadow.AssemblyInfo.cs
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/WeirdShadow.dll
+/Users/sthewissen/Documents/GitHub/WeirdShadow/WeirdShadow/obj/Debug/netstandard2.0/WeirdShadow.pdb
